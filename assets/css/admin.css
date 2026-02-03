@@ -1,0 +1,153 @@
+/**
+ * Admin styles for Disable Abilities API
+ *
+ * @package Disable_Abilities_API
+ */
+
+/* Wrapper */
+.ayudawp-daa-wrap {
+    max-width: 1200px;
+}
+
+/* Promotional notice */
+.ayudawp-daa-promo {
+    background: linear-gradient(135deg, #0073aa 0%, #005177 100%);
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.ayudawp-daa-promo h3 {
+    margin: 0 0 10px;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.ayudawp-daa-promo p {
+    margin: 0 0 15px;
+    font-size: 14px;
+    opacity: 0.95;
+}
+
+.ayudawp-daa-promo ul {
+    margin: 0 0 15px 20px;
+    list-style: disc;
+}
+
+.ayudawp-daa-promo li {
+    margin-bottom: 5px;
+    opacity: 0.95;
+}
+
+.ayudawp-daa-promo .button-primary {
+    background: #fff;
+    color: #0073aa;
+    border: none;
+    font-weight: 600;
+}
+
+.ayudawp-daa-promo .button-primary:hover {
+    background: #f0f0f0;
+    color: #005177;
+}
+
+/* Namespace groups */
+.ayudawp-daa-namespace-group {
+    margin: 25px 0;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+}
+
+.ayudawp-daa-namespace-group h3 {
+    margin: 0;
+    padding: 12px 15px;
+    background: #f6f7f7;
+    border-bottom: 1px solid #c3c4c7;
+    font-size: 14px;
+}
+
+.ayudawp-daa-namespace-group h3 .count {
+    font-weight: normal;
+    color: #646970;
+}
+
+.ayudawp-daa-namespace-group table {
+    border: none;
+    margin: 0;
+}
+
+.ayudawp-daa-namespace-group .check-column {
+    width: 30px;
+    padding: 10px !important;
+}
+
+.ayudawp-daa-namespace-group code {
+    background: #f0f0f1;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.ayudawp-daa-namespace-group small {
+    color: #646970;
+}
+
+/* Info section */
+.ayudawp-daa-info {
+    margin-top: 30px;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.ayudawp-daa-info h2 {
+    margin-top: 0;
+}
+
+.ayudawp-daa-info table {
+    margin-top: 15px;
+}
+
+.ayudawp-daa-info code {
+    background: #f0f0f1;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+/* Dashicons in tables */
+.dashicons-yes {
+    color: #00a32a;
+}
+
+.dashicons-no-alt {
+    color: #d63638;
+}
+
+/* Selective section */
+.ayudawp-daa-selective-section {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #c3c4c7;
+}
+
+/* Fieldset styling */
+fieldset label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Responsive */
+@media screen and (max-width: 782px) {
+    .ayudawp-daa-promo {
+        padding: 15px;
+    }
+
+    .ayudawp-daa-namespace-group table th:nth-child(3),
+    .ayudawp-daa-namespace-group table td:nth-child(3) {
+        display: none;
+    }
+}
