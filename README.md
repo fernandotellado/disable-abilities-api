@@ -1,2 +1,2 @@
-# disable-abilities-api
+# Disable Abilities API
 Disable Abilities API utility plugin
